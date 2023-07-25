@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lab 01 - DOM Mini Challenges</title>
+  </head>
+  <body>
+    <div id="challenge1">
+      <p>$0.00</p>
+      <div>
+        <button id="cola">Lime Cola $2.00</button>
+        <button id="peanuts">Salted Peanuts $3.00</button>
+        <button id="chocolate">Chocolate Bar $4.00</button>
+        <button id="fruit">Fruit Gummies $6.00</button>
+      </div>
+    </div>
+    <div id="challenge2">
+      <form id="money">
+        <label for="amount">How many?</label>
+        <input type="number" name="amount" id="amount" />
+        <label for="coinList">Which coin?</label>
+        <select name="coinList" id="coinList">
+          <option value="penny">Penny</option>
+          <option value="nickel">Nickel</option>
+          <option value="dime">Dime</option>
+          <option value="quarter">Quarter</option>
+        </select>
+        <button>Make Money!</button>
+      </form>
+    </div>
+    <ul id="coin-container"></ul>
+    <div id="light-bulb">Light Bulb</div>
+    <div id="light-switches">
+      <button id="onSwitch">On</button>
+      <button id="offSwitch">Off</button>
+      <button id="toggleSwitch">Toggle</button>
+      <button id="endSwitch">End</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
