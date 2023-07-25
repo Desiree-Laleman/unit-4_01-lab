@@ -30,6 +30,13 @@
   border: solid 2px grey;
 }
 
-#light-bulb {
+#lightBulb {
+  width: 75px;
+  height: 35px;
   padding: 10px 5px;
+  background-color: lightgray;
+}
+
+#lightBulb.on {
+  background-color: yellow;
 }
